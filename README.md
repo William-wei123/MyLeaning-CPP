@@ -170,7 +170,29 @@ const 函数和非const函数可以构成重载
 友元关系是单向的
 友元关系不能被传递
             不能被继承
-
+## 23-24
+### P23 复数的实现
+### P24
+    ++符号重载 推进成员函数重载 Integer.h
+    = 重载 String.h
+    ！重载 String.h
+### P25
+    [] 重载 String.h
+    + 重载 String.h 友元方式
+    += 重载 String.h
+    << 重载 String.h
+    >> 重载 String.h
+### P26
+    类型转换符重载 Iterger.h
+    ->指针运算符的重载
+    operator new 和 operator delete 重载 绑定出现
+        new 三种用法 test.h
+            new operator    无法重载
+            operator new    可以重载  一旦new 被重载，delete 也要被重载
+            placement new
+    全局new重载
+    placement new 重载
+    另一种operator new 重载
 
 
 
